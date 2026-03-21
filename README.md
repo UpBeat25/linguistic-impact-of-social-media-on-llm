@@ -1,5 +1,7 @@
 # Linguistic Impact of Social Media on Large Language Models
 
+⚠️ **WARNING:** This repository contains examples of harmful language, and reader discretion is recommended.
+
 This repository contains the code and experimental setup used to investigate how exposure to social-media-style language affects the behavior of large language models (LLMs).
 
 The study analyzes how incremental exposure to conversational data influences:
