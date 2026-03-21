@@ -5,7 +5,7 @@ This repository contains the code and experimental setup used to investigate how
 The study analyzes how incremental exposure to conversational data influences:
 - Toxicity
 - Sentiment
-- Coherence
+- Semantic similarity
 
 ---
 
@@ -25,7 +25,7 @@ The experiments are conducted using a controlled, single-model setup with staged
 - Evaluation Metrics:
   - Toxicity → Perspective API
   - Sentiment → VADER
-  - Coherence → MiniLM (Sentence-BERT embeddings)
+  - Semantic Similarity → MiniLM (Sentence-BERT embeddings)
 
 ---
 
@@ -37,11 +37,11 @@ For each stage:
 3. Metrics are computed:
    - Toxicity (Perspective API)
    - Sentiment (VADER)
-   - Coherence (cosine similarity of embeddings)
+   - Semantic Similarity (cosine similarity of embeddings)
 
 ---
 
-## ❓ Why VADER was used instead of TextBlob
+## Question❓ Why VADER was used instead of TextBlob
 
 Although both VADER and TextBlob were initially considered for sentiment analysis, only VADER was used in the final evaluation.
 
