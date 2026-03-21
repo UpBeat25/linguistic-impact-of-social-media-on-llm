@@ -238,7 +238,7 @@
     },
     "length": { "avg": 105.0, "min": 82, "max": 146, "std": 29.06314963431642 }
   },
-  "coherence_high": {
+  "similarity_high": {
     "sentiment_textblob": {
       "avg": 0.09714186507936506,
       "min": 0.014409722222222221,
@@ -277,7 +277,7 @@
     },
     "length": { "avg": 146.0, "min": 144, "max": 149, "std": 2.160246899469287 }
   },
-  "coherence_low_but_real": {
+  "similarity_low_but_real": {
     "sentiment_textblob": {
       "avg": 0.07345736274307703,
       "min": -0.010941043083900223,
@@ -316,7 +316,7 @@
     },
     "length": { "avg": 152.0, "min": 142, "max": 160, "std": 7.483314773547883 }
   },
-  "coherence_nonsense_natural": {
+  "similarity_nonsense_natural": {
     "sentiment_textblob": {
       "avg": -0.12099358974358974,
       "min": -0.29583333333333334,
