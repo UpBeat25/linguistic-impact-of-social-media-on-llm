@@ -213,7 +213,7 @@
       "std": 2.357022603955158
     }
   },
-  "coherence_high": {
+  "similarity_high": {
     "sentiment_textblob": {
       "avg": 0.17777777777777778,
       "min": 0.0,
@@ -252,7 +252,7 @@
       "std": 0.9428090415820634
     }
   },
-  "coherence_low_but_real": {
+  "similarity_low_but_real": {
     "sentiment_textblob": {
       "avg": -0.3333333333333333,
       "min": -0.5,
@@ -286,7 +286,7 @@
     "repetition": { "avg": 1.0, "min": 1.0, "max": 1.0, "std": 0.0 },
     "length": { "avg": 11.0, "min": 9, "max": 13, "std": 1.632993161855452 }
   },
-  "coherence_nonsense_natural": {
+  "similarity_nonsense_natural": {
     "sentiment_textblob": { "avg": 0.05, "min": 0.0, "max": 0.1, "std": 0.05 },
     "sentiment_vader": {
       "avg": -0.46775,
