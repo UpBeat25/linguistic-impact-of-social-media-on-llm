@@ -78,7 +78,7 @@ def evaluate_model_metrics():
 
         # Evaluate each text
         for key, user_input in texts.items():
-            bot_response = chat(user_input)  # Replace with your actual bot function
+            bot_response = chat(user_input).split("\nassistant\n")[1]
             interaction = log_interaction(user_input, bot_response)
             results.append(interaction)
 
