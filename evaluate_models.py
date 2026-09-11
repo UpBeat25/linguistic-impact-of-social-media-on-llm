@@ -15,7 +15,7 @@ import torch
 vader_analyzer = SentimentIntensityAnalyzer()
 sentiment_model = SentenceTransformer("all-MiniLM-L6-v2")
 
-PERSPECTIVE_API_KEY = "Replace With your API Key"
+PERSPECTIVE_API_KEY = "API KEY HERE"
 PERSPECTIVE_URL = "https://commentanalyzer.googleapis.com/v1alpha1/comments:analyze"
 
 # ======================================
