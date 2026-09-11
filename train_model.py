@@ -13,7 +13,7 @@ os.environ["WANDB_DISABLED"] = "true"
 round = 3 # Replace with the current stage
 # ======= CONFIG =======
 comment_file = f"stage_{round}.txt"
-model_name = f"./stage{round-1}" # Replace with 'Qwen/Qwen2.5-0.5B-Instruct' for stage 1
+model_name = f"./stage_{round-1}-qa"
 save_dir_stage1 = f"./stage_{round}-comments"
 max_length = 128
 # ======================
@@ -74,7 +74,8 @@ training_args_1 = TrainingArguments(
     save_total_limit=1,
     warmup_steps=20,
     weight_decay=0.01,
-    fp16=torch.cuda.is_available(),
+    fp16=False,
+    bf16=True,
 )
 
 trainer_1 = Trainer(
@@ -170,7 +171,8 @@ training_args_2 = TrainingArguments(
     save_total_limit=1,
     warmup_steps=20,
     weight_decay=0.01,
-    fp16=torch.cuda.is_available(),
+    fp16=False,
+    bf16=True,
 )
 
 trainer_2 = Trainer(
